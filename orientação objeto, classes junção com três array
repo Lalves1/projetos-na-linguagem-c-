@@ -1,0 +1,56 @@
+#include <iostream>
+
+using namespace std;
+
+class uniao{// nome da classe;
+int vet1[6];// variavel para açao no metado;
+int vet2[6];
+int vet3[12];
+
+int i;
+
+public://metado para acesso fora da classe;
+vets1(int vet[6]);// declaraçao do metado;
+
+
+};
+
+
+//entradas
+int uniao::vets1(int vet[6]){//acao do metado//parametro;
+for (i=0;i<6;i++){
+	cout<<"Digite o"<<i+1<<"primeiro array"<<endl;
+	cin>>vet1[i];
+}
+for(i=0;i<6;i++){
+	cout<<"Digite o"<<i+1<<"segundo array"<<endl;
+	cin>>vet2[i];
+{
+
+
+for(i=0;i<6;i++){
+	vet3[i] =vet1[i];
+}
+
+for (i = 6;i<12;i++){
+	vet3[i] = vet2[i-6];
+	
+	for (i = 0;i<12;i++)
+	cout<<vet3[i]<<endl;
+}
+}
+}
+}
+    int main(){
+    		int vet[6];
+    	uniao vett;
+    	vett.vets1(vet);
+   	   	
+return 0;
+}
+
+	 
+	
+    	
+    
+	
